@@ -68,9 +68,15 @@ body {
   margin-bottom: 5px;
 }
 
+.clac .num .label {
+  margin-top: 3px;
+  font-size: 14px;
+}
+
 .clac .num .result {
   font-size: 10px;
   margin-right: 5px;
+  margin-top: 5px;
 }
 
 .clac .math {
