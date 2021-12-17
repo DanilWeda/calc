@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,8 +9,28 @@
 	<link rel="stylesheet" href="./css/style.css">
 	<title>Calc</title>
 </head>
-<body>
 
+<body>
+	<div class="clac">
+		<h1 class="title">Calc</h1>
+		<form  class='form' action="#">
+			<div class="num">
+				<h3 class="label">Num 1</h3>
+				<input id='firstNum' class="number-inp" value='0' type="number">
+				<h3 class="label">Num 2</h3>
+				<input id='secondNum'class="number-inp" value='0' type="number">
+				<h3 id='showResult' class="result">...</h3>
+			</div>
+			<div class="math">
+				<input id='plus' type="submit" value="+">
+				<input id='minus' type="submit" value="-">
+				<input id='multiply' type="submit" value="*">
+				<input id='divide' type="submit" value="/">
+			</div>
+			<input id='result' type="submit" value="Result">
+		</form>
+	</div>
 	<script src="./js/main.js"></script>
 </body>
+
 </html>
